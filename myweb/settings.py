@@ -32,9 +32,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 #SECRET_KEY = os.environ['secret_key'] #2
 secret_file = os.path.join(BASE_DIR, 'secrets.json')
 
-{
-    "SECRET_KEY": "secret_key 입력"
-}
+secret_key = secrets.token_urlsafe(32)
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False #보안을 위해서 
 
