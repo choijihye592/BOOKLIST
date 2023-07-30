@@ -19,6 +19,8 @@ environ.Env.read_env()
 
 from pathlib import Path
 from django.core.exceptions import ImproperlyConfigured
+from django.core.management.utils import get_random_secret_key
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
