@@ -38,7 +38,7 @@ secret_file = os.path.join(BASE_DIR, 'secrets.json')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False #보안을 위해서 
 
-ALLOWED_HOSTS = ['.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['.koyeb.com', '127.0.0.1']
 
 
 # Application definition
